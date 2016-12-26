@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WCBigAndSmallView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBb-3E-Zzj">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="51"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="1Qc-QR-6Qd"/>
+                        <constraint firstAttribute="height" constant="50.5" id="lI0-yk-N2B"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="map_enlarge"/>
+                    <connections>
+                        <action selector="bigAndSmallBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="5gv-e3-ZCZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBW-ay-oRp">
+                    <rect key="frame" x="0.0" y="51" width="50" height="55"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54.5" id="CLp-vl-3cw"/>
+                        <constraint firstAttribute="width" constant="50" id="dN8-ID-8jb"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="map_narrow"/>
+                    <connections>
+                        <action selector="bigAndSmallBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="crO-IW-tMH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rBW-ay-oRp" firstAttribute="top" secondItem="LBb-3E-Zzj" secondAttribute="bottom" id="3A2-bM-t57"/>
+                <constraint firstItem="LBb-3E-Zzj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mct-k4-AQB"/>
+                <constraint firstItem="LBb-3E-Zzj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NLj-zA-gbi"/>
+                <constraint firstItem="rBW-ay-oRp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hoO-bQ-WEr"/>
+            </constraints>
+            <point key="canvasLocation" x="286" y="186"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="map_enlarge" width="50" height="50"/>
+        <image name="map_narrow" width="50" height="54"/>
+    </resources>
+</document>

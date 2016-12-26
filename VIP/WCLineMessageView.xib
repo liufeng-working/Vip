@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WCLineMessageView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map_popup" translatesAutoresizingMaskIntoConstraints="NO" id="kTa-gA-Vd5" userLabel="select">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="145"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="JUI-d7-dF5"/>
+                        <constraint firstAttribute="height" constant="145" id="fmX-mg-trH"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_map_distance_focusing" translatesAutoresizingMaskIntoConstraints="NO" id="yyx-VF-ncG" userLabel="Image View_第一个">
+                    <rect key="frame" x="20" y="15" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="6pl-yv-KEf"/>
+                        <constraint firstAttribute="height" constant="25" id="9uq-a9-r1U"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_map_time_focusing" translatesAutoresizingMaskIntoConstraints="NO" id="f46-jC-vMM">
+                    <rect key="frame" x="152" y="15" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="oNd-cS-pDN"/>
+                        <constraint firstAttribute="height" constant="25" id="rGV-GH-kdN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.57公里" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxz-PM-sYc">
+                    <rect key="frame" x="57" y="19" width="86" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="86" id="GP9-vd-MYS"/>
+                        <constraint firstAttribute="height" constant="18" id="gPL-Zd-FJF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.26666666666666666" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30分钟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vve-mQ-9fy">
+                    <rect key="frame" x="189" y="19" width="86" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Oat-0L-fxw"/>
+                        <constraint firstAttribute="width" constant="86" id="vJJ-1f-7Cl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.26666666666666666" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="途径8个信控路口" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oD-8O-kRy">
+                    <rect key="frame" x="18" y="64" width="240" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="Prg-Og-cKz"/>
+                        <constraint firstAttribute="height" constant="21" id="pI7-If-9MN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.53333333333333333" green="0.59999999999999998" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1j-Vl-mBJ" customClass="WCNoHighlightedButton">
+                    <rect key="frame" x="18" y="102" width="245" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="Wox-xN-sU6"/>
+                        <constraint firstAttribute="width" constant="245" id="qfv-bv-vCD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="69" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="63.5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="设为常用路线" image="icon_map_collection" backgroundImage="map_button_focusing">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" title="已设为常用路线" image="icon_map_collection_focusing" backgroundImage="map_button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="settingUseLineBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="OZi-O1-c0k"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vve-mQ-9fy" firstAttribute="centerY" secondItem="f46-jC-vMM" secondAttribute="centerY" id="3yN-QU-8m5"/>
+                <constraint firstItem="yyx-VF-ncG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="898-PP-KZ3"/>
+                <constraint firstItem="vve-mQ-9fy" firstAttribute="leading" secondItem="f46-jC-vMM" secondAttribute="trailing" constant="12" id="AeH-y4-Fe9"/>
+                <constraint firstItem="I1j-Vl-mBJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17.5" id="EdQ-7x-RA5"/>
+                <constraint firstItem="7oD-8O-kRy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="LLO-m5-Jhp"/>
+                <constraint firstItem="I1j-Vl-mBJ" firstAttribute="top" secondItem="7oD-8O-kRy" secondAttribute="bottom" constant="16.5" id="Ufa-Vy-bB8"/>
+                <constraint firstItem="kTa-gA-Vd5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YnD-mr-UFB"/>
+                <constraint firstItem="f46-jC-vMM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="b8w-zs-e7B"/>
+                <constraint firstItem="yyx-VF-ncG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="cbl-65-aRh"/>
+                <constraint firstItem="zxz-PM-sYc" firstAttribute="leading" secondItem="yyx-VF-ncG" secondAttribute="trailing" constant="12" id="cf9-dv-dbJ"/>
+                <constraint firstItem="zxz-PM-sYc" firstAttribute="centerY" secondItem="yyx-VF-ncG" secondAttribute="centerY" id="cgl-u3-LG5"/>
+                <constraint firstItem="f46-jC-vMM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="152" id="lwz-pn-t4y"/>
+                <constraint firstItem="7oD-8O-kRy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="oRz-UO-cKt"/>
+                <constraint firstItem="kTa-gA-Vd5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pSw-lv-xou"/>
+            </constraints>
+            <connections>
+                <outlet property="distanceLabel" destination="zxz-PM-sYc" id="7lV-oV-kpf"/>
+                <outlet property="firstIcon" destination="yyx-VF-ncG" id="Pbb-9q-H0S"/>
+                <outlet property="roadCountLabel" destination="7oD-8O-kRy" id="07l-0I-97y"/>
+                <outlet property="secondIcon" destination="f46-jC-vMM" id="O7M-Se-Nlg"/>
+                <outlet property="selectBackgroundImageview" destination="kTa-gA-Vd5" id="3fC-rH-I4v"/>
+                <outlet property="timeLabel" destination="vve-mQ-9fy" id="g7W-AC-4Of"/>
+                <outlet property="userLineBtn" destination="I1j-Vl-mBJ" id="puT-ze-Hbw"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="303"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_map_collection" width="25" height="25"/>
+        <image name="icon_map_collection_focusing" width="25" height="25"/>
+        <image name="icon_map_distance_focusing" width="25" height="25"/>
+        <image name="icon_map_time_focusing" width="25" height="25"/>
+        <image name="map_button" width="245" height="33"/>
+        <image name="map_button_focusing" width="245" height="33"/>
+        <image name="map_popup" width="280" height="145"/>
+    </resources>
+</document>

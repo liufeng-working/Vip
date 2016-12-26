@@ -1,0 +1,264 @@
+//
+//  VIPPrefixHeader.pch
+//  VIP
+//
+//  Created by NJWC on 16/3/17.
+//  Copyright © 2016年 wancun. All rights reserved.
+//
+
+#ifndef VIPPrefixHeader_pch
+#define VIPPrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "WCPhoneNotification.h"
+#import "UIView+Extension.h"
+#import "NSString+Extensions.h"
+#import "UIColor+extend.h"
+#import "NSMutableAttributedString+Extensions.h"
+#endif
+
+
+
+#pragma mark -
+#pragma mark ---- 接口
+/**
+ 1 正式环境
+ 0 测试环境
+ */
+#define TESTServer 1
+#if TESTServer
+#define kBaseUrl @"http://58.211.179.194:8082/ZTTraffic/Service/VIP"
+#else
+#define kBaseUrl @"http://192.168.3.233:8080/Service/VIP"
+#endif
+
+//release模式下build，直接移除所有NSLog
+#ifdef __OPTIMIZE__
+#define NSLog(...)
+#endif
+
+
+
+#pragma mark -
+#pragma mark ----通用
+
+//存储账号密码的key
+#define kUserName  @"userName"
+#define kPassWord @"passWord"
+
+#define kAccount @"account"
+
+#define kInterSection @"interSection"
+//
+#define kDefaults [NSUserDefaults standardUserDefaults]
+
+//屏幕宽高
+//#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+//#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+
+//由于iPad mini2 出现适配问题（横屏模式下，取到的宽高是相反的，所所以采用硬编码的方式进行适配，也可采用#if #else 进行适配，但是暂时还不知道除了mini2，还有哪些机型出现问题，所以未采用这种方式<2016-08-02>）
+#define kScreenHeight 768.f
+#define kScreenWidth  1024.f
+
+//提示框的文字大小
+#define kAlertSize 20.0f
+
+//左侧自定义的tabBar的宽度
+#define kTabBarWidth   70.f
+
+//状态栏的高度
+#define kStatusBarHeight 20.f
+
+//显示内容的宽高(去除左边工具栏和上面状态栏)
+#define kContentHeight (kScreenHeight - kStatusBarHeight)
+#define kContentWidth (kScreenWidth - kTabBarWidth)
+
+
+//tabBarItem宽高
+#define kTabBarItemWidth 70
+#define kTabBarItemHeight 70
+
+//item的起始y坐标
+#define kStartY 0
+
+//logo与上面item的间距
+#define kLogoAndItemDistance 0
+
+//每个item之间的间距
+#define kItemDistance 0
+
+//上面的几个item与下面几个item的距离（原始需求中能用到，后来需求更改，这个宏变得没有意义了）
+#define kTopAndButtomDistance 100
+
+//消息推送提示框中心点与tabBarItem中心的x,y偏移量（原始需求中能用到，后来需求更改，这个宏变得没有意义了）
+#define kMarginX 10
+#define kMarginY -10
+
+//消息推送字体大小（原始需求中能用到，后来需求更改，这个宏变得没有意义了）
+#define kMessageFoneSize 15
+
+//类导航条高度
+#define kNavigationHeight 70
+
+//主要内容的宽高（去除左边工具栏和上面类导航条）
+#define kMainViewHeight (kContentHeight - kNavigationHeight)
+#define kMainViewWidth kContentWidth
+
+//切角大小（view左上角的圆角效果，后来给的背景图好像自带圆角效果）
+#define kCornerSize CGSizeMake(10, 10)
+
+//地图的key
+#define MAPAPPKEY  @"906d26d42e4a96f81706763f5c20bb06"
+//讯飞语音的key
+#define IFlyKey    @"56efca66"
+
+//tabBarController背景色
+#define kTabBarControllerBackGroundColor @"#2E3C48"
+
+//tabBar背景色
+#define kTabBarBackGroundColor @"#2E3C48"
+
+//基类背景色
+#define kBaseControllerBackGroundColor @"#EDF1F5"
+
+//navigation背景色
+#define kNavigationBackGroundColor @"#FFFFFF"
+
+//进度条 背景色
+#define kProgressBackColor @"#C5D2D7"
+//进度条 前景色
+#define kProgressTintColor @"#3597DB"
+
+
+#pragma mark -
+#pragma mark - 基本信息页面---专用（b开头）
+
+//第一个进度圈距离左侧的距离
+#define bProgressAndLeftDis 178
+
+//进度圈之间的距离
+#define bProgressDistance 170
+
+//进度条的高度
+#define bProgressHeight 3.5
+
+//进度圈距离上方的距离
+#define bProgressAndTopDis 14
+
+//进度圈与标题之间的距离
+#define bProgressAndTitleDis 6
+
+//navigationView上标题大小
+#define bNavTitleSize 15
+
+//主视图与navigationView的距离
+#define bMainViewAndNavDis 20
+
+//主视图与tabBarView的距离
+#define bMainViewAndTabDis 20
+
+//navigationView上标题选中时的色值
+#define bNavTitleSelectColor @"#334455"
+
+//navigationView上标题默认时的色值
+#define bNavTitleNormalColor @"#8899AA"
+
+/**
+ *  第二个页面
+ */
+//线路选择view与导航条的距离
+#define bLineSelectAndNavDis 20
+
+//线路选择view与工具条的距离
+#define bLineSelectAndTabDis 17.5
+
+//重置或取消view与导航条的距离
+#define bResetAndNavDis 20
+
+//重置或取消view与右边的距离
+#define bResetAndRightDis 17
+
+//路线信息view与工具条的距离
+#define bLineMessageAndTabDis 15
+
+//路线信息view与底部的距离
+#define bLineMessageAndBottomDis 14.5
+
+
+#pragma mark -
+#pragma mark - 任务检测页面---专用（t开头）
+
+//标题距离左边的距离
+#define tTitleAndLeftDis 300
+
+//标题之间的距离
+#define tTitleDistance 60
+
+//标题距离上面的距离
+#define tTitleAndTopDis 17.5
+
+//标题的大小
+#define tTitleSize 15
+
+//标题的选中颜色
+#define tTitleSelectColor @"#FFFFFF"
+
+//标题的默认颜色
+#define tTitleNormalColor @"#8899AA"
+
+//每条线路view 距离导航条的距离
+#define tLineViewAndNavDis 20
+
+//每条路线view 距离tabBar的距离
+#define tLineViewAndTabDis 20
+
+//"任务执行中" 字体的大小
+#define tTaskingSize 15
+
+#pragma mark -
+#pragma mark - 数据统计页面---专用（c开头）
+
+//标题距离左边的距离
+#define cTitleAndLeftDis 227.5
+
+//标题之间的距离
+#define cTitleDistance 60
+
+//标题距离上面的距离
+#define cTitleAndTopDis 17.5
+
+//标题的大小
+#define cTitleSize 15
+
+//标题的选中颜色
+#define cTitleSelectColor @"#FFFFFF"
+
+//标题的默认颜色
+#define cTitleNormalColor @"#334455"
+
+
+
+#pragma mark -
+#pragma mark ---- 自定义的一些东西
+
+//当做系统的[NSString stringWithFormat:""]使用
+#define kStringWithFormat(string, ...) [NSString stringWithFormat:string,##__VA_ARGS__]
+
+//设置字体大小
+#define kSetFont(fontSize) [UIFont systemFontOfSize:fontSize]
+
+//全局 AppDelegate
+#define kTheApp ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+
+#pragma mark -
+#pragma mark ---- 判断系统版本
+//ios7以上版本
+#define IOS7 ([[UIDevice currentDevice].systemVersion floatValue] >= 7.f ? YES : NO)
+//ios8以上版本
+#define IOS8 ([[UIDevice currentDevice].systemVersion floatValue] >= 8.f ? YES : NO)
+
+#define iPad
+
+#endif /* VIPPrefixHeader_pch */

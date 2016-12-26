@@ -1,0 +1,1242 @@
+{
+    "101104": {
+        "intersectionId": "101104",
+        "intersectionName": "中山路/马鞍山路",
+        "lat": 31.387957,
+        "lon": 120.9492,
+        "status": 1,
+        "taskId": -1
+    },
+    "101108": {
+        "intersectionId": "101108",
+        "intersectionName": "中山路/前进路",
+        "lat": 31.381739,
+        "lon": 120.952934,
+        "status": 1,
+        "taskId": -1
+    },
+    "101136": {
+        "intersectionId": "101136",
+        "intersectionName": "中山路/西街",
+        "lat": 31.379559,
+        "lon": 120.952934,
+        "status": 1,
+        "taskId": -1
+    },
+    "101216": {
+        "intersectionId": "101216",
+        "intersectionName": "中山路/西塘街",
+        "lat": 120.95135,
+        "lon": 31.384136,
+        "status": 1,
+        "taskId": -1
+    },
+    "103102": {
+        "intersectionId": "103102",
+        "intersectionName": "北门路/萧林路",
+        "lat": 31.404125,
+        "lon": 120.951805,
+        "status": 1,
+        "taskId": -1
+    },
+    "103144": {
+        "intersectionId": "103144",
+        "intersectionName": "北门路/环庆路",
+        "lat": 31.412394,
+        "lon": 120.951164,
+        "status": 1,
+        "taskId": -1
+    },
+    "103148": {
+        "intersectionId": "103148",
+        "intersectionName": "北门路/五联路",
+        "lat": 31.439241,
+        "lon": 120.94947,
+        "status": 1,
+        "taskId": -1
+    },
+    "105102": {
+        "intersectionId": "105102",
+        "intersectionName": "柏庐路/萧林路",
+        "lat": 31.403603,
+        "lon": 120.96527,
+        "status": 1,
+        "taskId": -1
+    },
+    "105106": {
+        "intersectionId": "105106",
+        "intersectionName": "柏庐路/同丰路",
+        "lat": 31.384926,
+        "lon": 120.964386,
+        "status": 1,
+        "taskId": -1
+    },
+    "105108": {
+        "intersectionId": "105108",
+        "intersectionName": "柏庐路/前进路",
+        "lat": 31.382874,
+        "lon": 120.96504,
+        "status": 1,
+        "taskId": -1
+    },
+    "105110": {
+        "intersectionId": "105110",
+        "intersectionName": "柏庐路/震川路",
+        "lat": 31.377918,
+        "lon": 120.965546,
+        "status": 1,
+        "taskId": -1
+    },
+    "105112": {
+        "intersectionId": "105112",
+        "intersectionName": "柏庐路/朝阳路",
+        "lat": 31.373375,
+        "lon": 120.965775,
+        "status": 1,
+        "taskId": -1
+    },
+    "105114": {
+        "intersectionId": "105114",
+        "intersectionName": "柏庐路/合兴路",
+        "lat": 31.366636,
+        "lon": 120.96624,
+        "status": 1,
+        "taskId": -1
+    },
+    "105118": {
+        "intersectionId": "105118",
+        "intersectionName": "柏庐路/创业路",
+        "lat": 31.35053,
+        "lon": 120.959045,
+        "status": 1,
+        "taskId": -1
+    },
+    "105120": {
+        "intersectionId": "105120",
+        "intersectionName": "柏庐路/昆太路",
+        "lat": 31.391422,
+        "lon": 120.96402,
+        "status": 1,
+        "taskId": -1
+    },
+    "105122": {
+        "intersectionId": "105122",
+        "intersectionName": "柏庐路/中华园路",
+        "lat": 31.354504,
+        "lon": 120.96147,
+        "status": 1,
+        "taskId": -1
+    },
+    "105124": {
+        "intersectionId": "105124",
+        "intersectionName": "柏庐路/环城北路",
+        "lat": 31.416758,
+        "lon": 120.96664,
+        "status": 1,
+        "taskId": -1
+    },
+    "105126": {
+        "intersectionId": "105126",
+        "intersectionName": "柏庐路/花园路",
+        "lat": 31.39827,
+        "lon": 120.964714,
+        "status": 1,
+        "taskId": -1
+    },
+    "105128": {
+        "intersectionId": "105128",
+        "intersectionName": "柏庐路/富士康路",
+        "lat": 31.416752,
+        "lon": 120.96664,
+        "status": 1,
+        "taskId": -1
+    },
+    "105130": {
+        "intersectionId": "105130",
+        "intersectionName": "柏庐路/衡山路",
+        "lat": 31.358059,
+        "lon": 120.96371,
+        "status": 1,
+        "taskId": -1
+    },
+    "105138": {
+        "intersectionId": "105138",
+        "intersectionName": "柏庐路/集街",
+        "lat": 31.37959,
+        "lon": 120.96567,
+        "status": 1,
+        "taskId": -1
+    },
+    "105144": {
+        "intersectionId": "105144",
+        "intersectionName": "柏庐路/环庆路",
+        "lat": 31.41081,
+        "lon": 120.96602,
+        "status": 1,
+        "taskId": -1
+    },
+    "105220": {
+        "intersectionId": "105220",
+        "intersectionName": "柏庐路/东门街",
+        "lat": 31.387375,
+        "lon": 120.964264,
+        "status": 1,
+        "taskId": -1
+    },
+    "105234": {
+        "intersectionId": "105234",
+        "intersectionName": "柏庐路/娄苑路",
+        "lat": 31.39591,
+        "lon": 120.964455,
+        "status": 1,
+        "taskId": -1
+    },
+    "105802": {
+        "intersectionId": "105802",
+        "intersectionName": "柏庐路/横街",
+        "lat": 31.386047,
+        "lon": 120.964195,
+        "status": 1,
+        "taskId": -1
+    },
+    "107106": {
+        "intersectionId": "107106",
+        "intersectionName": "珠江路/同丰路",
+        "lat": 31.385946,
+        "lon": 120.97197,
+        "status": 1,
+        "taskId": -1
+    },
+    "107108": {
+        "intersectionId": "107108",
+        "intersectionName": "珠江路/前进路",
+        "lat": 31.382956,
+        "lon": 120.97201,
+        "status": 1,
+        "taskId": -1
+    },
+    "107110": {
+        "intersectionId": "107110",
+        "intersectionName": "珠江路/震川路",
+        "lat": 31.378029,
+        "lon": 120.97213,
+        "status": 1,
+        "taskId": -1
+    },
+    "107112": {
+        "intersectionId": "107112",
+        "intersectionName": "珠江路/朝阳路",
+        "lat": 31.370869,
+        "lon": 120.971924,
+        "status": 1,
+        "taskId": -1
+    },
+    "107114": {
+        "intersectionId": "107114",
+        "intersectionName": "珠江路/合兴路",
+        "lat": 31.365932,
+        "lon": 120.970474,
+        "status": 1,
+        "taskId": -1
+    },
+    "109102": {
+        "intersectionId": "109102",
+        "intersectionName": "长江路/萧林路",
+        "lat": 31.402216,
+        "lon": 120.97846,
+        "status": 1,
+        "taskId": -1
+    },
+    "109106": {
+        "intersectionId": "109106",
+        "intersectionName": "长江路/同丰路",
+        "lat": 31.38629,
+        "lon": 120.97889,
+        "status": 1,
+        "taskId": -1
+    },
+    "109108": {
+        "intersectionId": "109108",
+        "intersectionName": "长江路/前进路",
+        "lat": 31.383162,
+        "lon": 120.97902,
+        "status": 1,
+        "taskId": -1
+    },
+    "109110": {
+        "intersectionId": "109110",
+        "intersectionName": "长江路/震川路",
+        "lat": 31.378138,
+        "lon": 120.979195,
+        "status": 1,
+        "taskId": -1
+    },
+    "109112": {
+        "intersectionId": "109112",
+        "intersectionName": "长江路/朝阳路",
+        "lat": 31.367355,
+        "lon": 120.979485,
+        "status": 1,
+        "taskId": -1
+    },
+    "109114": {
+        "intersectionId": "109114",
+        "intersectionName": "长江路/合兴路",
+        "lat": 31.364632,
+        "lon": 120.979576,
+        "status": 1,
+        "taskId": -1
+    },
+    "109116": {
+        "intersectionId": "109116",
+        "intersectionName": "长江路/庆丰路",
+        "lat": 31.359116,
+        "lon": 120.97953,
+        "status": 1,
+        "taskId": -1
+    },
+    "109118": {
+        "intersectionId": "109118",
+        "intersectionName": "长江路/创业路",
+        "lat": 31.345348,
+        "lon": 120.97271,
+        "status": 1,
+        "taskId": -1
+    },
+    "109120": {
+        "intersectionId": "109120",
+        "intersectionName": "长江路/昆太路",
+        "lat": 31.391565,
+        "lon": 120.978775,
+        "status": 1,
+        "taskId": -1
+    },
+    "109122": {
+        "intersectionId": "109122",
+        "intersectionName": "长江路/中华园路",
+        "lat": 31.349102,
+        "lon": 120.974464,
+        "status": 1,
+        "taskId": -1
+    },
+    "109130": {
+        "intersectionId": "109130",
+        "intersectionName": "长江路/衡山路",
+        "lat": 31.35317,
+        "lon": 120.976364,
+        "status": 1,
+        "taskId": -1
+    },
+    "109212": {
+        "intersectionId": "109212",
+        "intersectionName": "长江路/新南路",
+        "lat": 31.33379,
+        "lon": 120.96585,
+        "status": 1,
+        "taskId": -1
+    },
+    "109226": {
+        "intersectionId": "109226",
+        "intersectionName": "长江路/春晖路",
+        "lat": 31.397142,
+        "lon": 120.97859,
+        "status": 1,
+        "taskId": -1
+    },
+    "109232": {
+        "intersectionId": "109232",
+        "intersectionName": "长江路/景王路",
+        "lat": 31.370361,
+        "lon": 120.9794,
+        "status": 1,
+        "taskId": -1
+    },
+    "109254": {
+        "intersectionId": "109254",
+        "intersectionName": "长江路/金浦路",
+        "lat": 31.406973,
+        "lon": 120.97832,
+        "status": 1,
+        "taskId": -1
+    },
+    "109256": {
+        "intersectionId": "109256",
+        "intersectionName": "长江路/园明路",
+        "lat": 31.36268,
+        "lon": 120.97962,
+        "status": 1,
+        "taskId": -1
+    },
+    "111106": {
+        "intersectionId": "111106",
+        "intersectionName": "黑龙江路/同丰路",
+        "lat": 31.386477,
+        "lon": 120.98241,
+        "status": 1,
+        "taskId": -1
+    },
+    "111108": {
+        "intersectionId": "111108",
+        "intersectionName": "黑龙江路/前进路",
+        "lat": 31.38324,
+        "lon": 120.982574,
+        "status": 1,
+        "taskId": -1
+    },
+    "111110": {
+        "intersectionId": "111110",
+        "intersectionName": "黑龙江路/震川路",
+        "lat": 31.37822,
+        "lon": 120.98272,
+        "status": 1,
+        "taskId": -1
+    },
+    "111112": {
+        "intersectionId": "111112",
+        "intersectionName": "黑龙江路/朝阳路",
+        "lat": 31.365616,
+        "lon": 120.98308,
+        "status": 1,
+        "taskId": -1
+    },
+    "111116": {
+        "intersectionId": "111116",
+        "intersectionName": "黑龙江路/庆丰路",
+        "lat": 31.358103,
+        "lon": 120.98328,
+        "status": 1,
+        "taskId": -1
+    },
+    "113104": {
+        "intersectionId": "113104",
+        "intersectionName": "亭林路/马鞍山路",
+        "lat": 31.389477,
+        "lon": 120.953674,
+        "status": 1,
+        "taskId": -1
+    },
+    "113108": {
+        "intersectionId": "113108",
+        "intersectionName": "亭林路/前进路",
+        "lat": 31.38243,
+        "lon": 120.956985,
+        "status": 1,
+        "taskId": -1
+    },
+    "113124": {
+        "intersectionId": "113124",
+        "intersectionName": "亭林路/环城北路",
+        "lat": 31.3876,
+        "lon": 120.95447,
+        "status": 1,
+        "taskId": -1
+    },
+    "114112": {
+        "intersectionId": "114112",
+        "intersectionName": "合兴路/朝阳路",
+        "lat": 31.373714,
+        "lon": 120.95145,
+        "status": 1,
+        "taskId": -1
+    },
+    "115110": {
+        "intersectionId": "115110",
+        "intersectionName": "人民路/震川路",
+        "lat": 31.377378,
+        "lon": 120.95759,
+        "status": 1,
+        "taskId": -1
+    },
+    "115112": {
+        "intersectionId": "115112",
+        "intersectionName": "人民路/朝阳路",
+        "lat": 31.373934,
+        "lon": 120.95789,
+        "status": 1,
+        "taskId": -1
+    },
+    "115114": {
+        "intersectionId": "115114",
+        "intersectionName": "人民路/合兴路",
+        "lat": 31.367561,
+        "lon": 120.958336,
+        "status": 1,
+        "taskId": -1
+    },
+    "115122": {
+        "intersectionId": "115122",
+        "intersectionName": "人民路/中华园路",
+        "lat": 31.358635,
+        "lon": 120.95316,
+        "status": 1,
+        "taskId": -1
+    },
+    "115130": {
+        "intersectionId": "115130",
+        "intersectionName": "人民路/衡山路",
+        "lat": 31.36241,
+        "lon": 120.95485,
+        "status": 1,
+        "taskId": -1
+    },
+    "117102": {
+        "intersectionId": "117102",
+        "intersectionName": "江浦路/萧林路",
+        "lat": 31.405375,
+        "lon": 120.92409,
+        "status": 1,
+        "taskId": -1
+    },
+    "117104": {
+        "intersectionId": "117104",
+        "intersectionName": "江浦路/马鞍山路",
+        "lat": 31.386662,
+        "lon": 120.924385,
+        "status": 1,
+        "taskId": -1
+    },
+    "117108": {
+        "intersectionId": "117108",
+        "intersectionName": "江浦路/前进路",
+        "lat": 31.38084,
+        "lon": 120.92466,
+        "status": 1,
+        "taskId": -1
+    },
+    "119102": {
+        "intersectionId": "119102",
+        "intersectionName": "鹿城路/萧林路",
+        "lat": 31.404894,
+        "lon": 120.92981,
+        "status": 1,
+        "taskId": -1
+    },
+    "119104": {
+        "intersectionId": "119104",
+        "intersectionName": "鹿城路/马鞍山路",
+        "lat": 31.386326,
+        "lon": 120.9294,
+        "status": 1,
+        "taskId": -1
+    },
+    "119108": {
+        "intersectionId": "119108",
+        "intersectionName": "鹿城路/前进路",
+        "lat": 31.380423,
+        "lon": 120.929886,
+        "status": 1,
+        "taskId": -1
+    },
+    "119126": {
+        "intersectionId": "119126",
+        "intersectionName": "鹿城路/花园路",
+        "lat": 31.399607,
+        "lon": 120.92902,
+        "status": 1,
+        "taskId": -1
+    },
+    "119146": {
+        "intersectionId": "119146",
+        "intersectionName": "鹿城路/万步路",
+        "lat": 31.389927,
+        "lon": 120.92911,
+        "status": 1,
+        "taskId": -1
+    },
+    "121104": {
+        "intersectionId": "121104",
+        "intersectionName": "虹桥路/马鞍山路",
+        "lat": 31.386051,
+        "lon": 120.93368,
+        "status": 1,
+        "taskId": -1
+    },
+    "121108": {
+        "intersectionId": "121108",
+        "intersectionName": "虹桥路/前进路",
+        "lat": 31.380161,
+        "lon": 120.93422,
+        "status": 1,
+        "taskId": -1
+    },
+    "121126": {
+        "intersectionId": "121126",
+        "intersectionName": "虹桥路/花园路",
+        "lat": 31.398306,
+        "lon": 120.93352,
+        "status": 1,
+        "taskId": -1
+    },
+    "121146": {
+        "intersectionId": "121146",
+        "intersectionName": "虹桥路/万步路",
+        "lat": 31.38993,
+        "lon": 120.93337,
+        "status": 1,
+        "taskId": -1
+    },
+    "123104": {
+        "intersectionId": "123104",
+        "intersectionName": "白马泾路/马鞍山路",
+        "lat": 31.385822,
+        "lon": 120.94214,
+        "status": 1,
+        "taskId": -1
+    },
+    "123108": {
+        "intersectionId": "123108",
+        "intersectionName": "白马泾路/前进路",
+        "lat": 31.381256,
+        "lon": 120.94271,
+        "status": 1,
+        "taskId": -1
+    },
+    "123110": {
+        "intersectionId": "123110",
+        "intersectionName": "白马泾路/震川路",
+        "lat": 31.377813,
+        "lon": 120.94289,
+        "status": 1,
+        "taskId": -1
+    },
+    "125108": {
+        "intersectionId": "125108",
+        "intersectionName": "樾阁街/前进路",
+        "lat": 31.38275,
+        "lon": 120.96283,
+        "status": 1,
+        "taskId": -1
+    },
+    "125110": {
+        "intersectionId": "125110",
+        "intersectionName": "樾阁街/震川路",
+        "lat": 31.377506,
+        "lon": 120.9628,
+        "status": 1,
+        "taskId": -1
+    },
+    "125124": {
+        "intersectionId": "125124",
+        "intersectionName": "樾阁街/环城北路",
+        "lat": 31.388712,
+        "lon": 120.961296,
+        "status": 1,
+        "taskId": -1
+    },
+    "125220": {
+        "intersectionId": "125220",
+        "intersectionName": "樾阁街/东门街",
+        "lat": 31.387302,
+        "lon": 120.961494,
+        "status": 1,
+        "taskId": -1
+    },
+    "125222": {
+        "intersectionId": "125222",
+        "intersectionName": "樾阁街/新昆街",
+        "lat": 31.38475,
+        "lon": 120.96187,
+        "status": 1,
+        "taskId": -1
+    },
+    "127106": {
+        "intersectionId": "127106",
+        "intersectionName": "黄河路/同丰路",
+        "lat": 31.38612,
+        "lon": 120.97562,
+        "status": 1,
+        "taskId": -1
+    },
+    "127108": {
+        "intersectionId": "127108",
+        "intersectionName": "黄河路/前进路",
+        "lat": 31.383024,
+        "lon": 120.97583,
+        "status": 1,
+        "taskId": -1
+    },
+    "129102": {
+        "intersectionId": "129102",
+        "intersectionName": "青阳路/萧林路",
+        "lat": 31.403566,
+        "lon": 120.99399,
+        "status": 1,
+        "taskId": -1
+    },
+    "129108": {
+        "intersectionId": "129108",
+        "intersectionName": "青阳路/前进路",
+        "lat": 31.383635,
+        "lon": 120.995514,
+        "status": 1,
+        "taskId": -1
+    },
+    "129110": {
+        "intersectionId": "129110",
+        "intersectionName": "青阳路/震川路",
+        "lat": 31.378895,
+        "lon": 120.995834,
+        "status": 1,
+        "taskId": -1
+    },
+    "129112": {
+        "intersectionId": "129112",
+        "intersectionName": "青阳路/朝阳路",
+        "lat": 31.35972,
+        "lon": 120.99713,
+        "status": 1,
+        "taskId": -1
+    },
+    "129116": {
+        "intersectionId": "129116",
+        "intersectionName": "青阳路/庆丰路",
+        "lat": 31.354609,
+        "lon": 120.99694,
+        "status": 1,
+        "taskId": -1
+    },
+    "129120": {
+        "intersectionId": "129120",
+        "intersectionName": "青阳路/昆太路",
+        "lat": 31.393831,
+        "lon": 120.99484,
+        "status": 1,
+        "taskId": -1
+    },
+    "129226": {
+        "intersectionId": "129226",
+        "intersectionName": "青阳路/春晖路",
+        "lat": 31.399166,
+        "lon": 120.99436,
+        "status": 1,
+        "taskId": -1
+    },
+    "129232": {
+        "intersectionId": "129232",
+        "intersectionName": "青阳路/景王路",
+        "lat": 31.36957,
+        "lon": 120.99649,
+        "status": 1,
+        "taskId": -1
+    },
+    "129250": {
+        "intersectionId": "129250",
+        "intersectionName": "青阳路/白墅路",
+        "lat": 31.373728,
+        "lon": 120.99619,
+        "status": 1,
+        "taskId": -1
+    },
+    "129252": {
+        "intersectionId": "129252",
+        "intersectionName": "青阳路/南河路",
+        "lat": 31.365328,
+        "lon": 120.996765,
+        "status": 1,
+        "taskId": -1
+    },
+    "129254": {
+        "intersectionId": "129254",
+        "intersectionName": "青阳路/金浦路",
+        "lat": 31.40798,
+        "lon": 120.99358,
+        "status": 1,
+        "taskId": -1
+    },
+    "131106": {
+        "intersectionId": "131106",
+        "intersectionName": "顺帆路/同丰路",
+        "lat": 31.387764,
+        "lon": 121.00702,
+        "status": 1,
+        "taskId": -1
+    },
+    "131108": {
+        "intersectionId": "131108",
+        "intersectionName": "顺帆路/前进路",
+        "lat": 31.383986,
+        "lon": 121.00724,
+        "status": 1,
+        "taskId": -1
+    },
+    "131110": {
+        "intersectionId": "131110",
+        "intersectionName": "顺帆路/震川路",
+        "lat": 31.379572,
+        "lon": 121.007385,
+        "status": 1,
+        "taskId": -1
+    },
+    "132130": {
+        "intersectionId": "132130",
+        "intersectionName": "峨眉山路/衡山路",
+        "lat": 31.360113,
+        "lon": 120.95952,
+        "status": 1,
+        "taskId": -1
+    },
+    "133122": {
+        "intersectionId": "133122",
+        "intersectionName": "小澞河路/中华园路",
+        "lat": 31.36006,
+        "lon": 120.94767,
+        "status": 1,
+        "taskId": -1
+    },
+    "135102": {
+        "intersectionId": "135102",
+        "intersectionName": "昆北路/萧林路",
+        "lat": 31.404083,
+        "lon": 120.954666,
+        "status": 1,
+        "taskId": -1
+    },
+    "135144": {
+        "intersectionId": "135144",
+        "intersectionName": "昆北路/环庆路",
+        "lat": 31.41239,
+        "lon": 120.95453,
+        "status": 1,
+        "taskId": -1
+    },
+    "135145": {
+        "intersectionId": "135145",
+        "intersectionName": "昆北路/紫竹路",
+        "lat": 31.391895,
+        "lon": 120.95914,
+        "status": 1,
+        "taskId": -1
+    },
+    "137108": {
+        "intersectionId": "137108",
+        "intersectionName": "黄浦江路/前进路",
+        "lat": 31.38407,
+        "lon": 121.010796,
+        "status": 1,
+        "taskId": -1
+    },
+    "139104": {
+        "intersectionId": "139104",
+        "intersectionName": "古城路/马鞍山路",
+        "lat": 31.389427,
+        "lon": 120.87961,
+        "status": 1,
+        "taskId": -1
+    },
+    "139108": {
+        "intersectionId": "139108",
+        "intersectionName": "古城路/前进路",
+        "lat": 31.382942,
+        "lon": 120.880035,
+        "status": 1,
+        "taskId": -1
+    },
+    "143102": {
+        "intersectionId": "143102",
+        "intersectionName": "水秀路/萧林路",
+        "lat": 31.40406,
+        "lon": 120.94304,
+        "status": 1,
+        "taskId": -1
+    },
+    "143126": {
+        "intersectionId": "143126",
+        "intersectionName": "水秀路/花园路",
+        "lat": 31.397509,
+        "lon": 120.94285,
+        "status": 1,
+        "taskId": -1
+    },
+    "145102": {
+        "intersectionId": "145102",
+        "intersectionName": "紫竹路/萧林路",
+        "lat": 31.403873,
+        "lon": 120.95875,
+        "status": 1,
+        "taskId": -1
+    },
+    "145126": {
+        "intersectionId": "145126",
+        "intersectionName": "紫竹路/花园路",
+        "lat": 31.397902,
+        "lon": 120.95896,
+        "status": 1,
+        "taskId": -1
+    },
+    "145144": {
+        "intersectionId": "145144",
+        "intersectionName": "紫竹路/环庆路",
+        "lat": 31.411648,
+        "lon": 120.95959,
+        "status": 1,
+        "taskId": -1
+    },
+    "147102": {
+        "intersectionId": "147102",
+        "intersectionName": "虹祺路/萧林路",
+        "lat": 31.405708,
+        "lon": 120.92042,
+        "status": 1,
+        "taskId": -1
+    },
+    "147104": {
+        "intersectionId": "147104",
+        "intersectionName": "虹祺路/马鞍山路",
+        "lat": 31.387352,
+        "lon": 120.91962,
+        "status": 1,
+        "taskId": -1
+    },
+    "147126": {
+        "intersectionId": "147126",
+        "intersectionName": "虹祺路/花园路",
+        "lat": 31.401094,
+        "lon": 120.91975,
+        "status": 1,
+        "taskId": -1
+    },
+    "149102": {
+        "intersectionId": "149102",
+        "intersectionName": "苇城路/萧林路",
+        "lat": 31.40581,
+        "lon": 120.89337,
+        "status": 1,
+        "taskId": -1
+    },
+    "149104": {
+        "intersectionId": "149104",
+        "intersectionName": "苇城路/马鞍山路",
+        "lat": 31.388914,
+        "lon": 120.89512,
+        "status": 1,
+        "taskId": -1
+    },
+    "149108": {
+        "intersectionId": "149108",
+        "intersectionName": "苇城路/前进路",
+        "lat": 31.381243,
+        "lon": 120.89501,
+        "status": 1,
+        "taskId": -1
+    },
+    "149140": {
+        "intersectionId": "149140",
+        "intersectionName": "苇城路/城北路",
+        "lat": 31.425642,
+        "lon": 120.88554,
+        "status": 1,
+        "taskId": -1
+    },
+    "151102": {
+        "intersectionId": "151102",
+        "intersectionName": "林荫路/萧林路",
+        "lat": 31.406878,
+        "lon": 120.906906,
+        "status": 1,
+        "taskId": -1
+    },
+    "153106": {
+        "intersectionId": "153106",
+        "intersectionName": "樾河路/同丰路",
+        "lat": 31.387594,
+        "lon": 121.00168,
+        "status": 1,
+        "taskId": -1
+    },
+    "153108": {
+        "intersectionId": "153108",
+        "intersectionName": "樾河路/前进路",
+        "lat": 31.383844,
+        "lon": 121.00179,
+        "status": 1,
+        "taskId": -1
+    },
+    "153110": {
+        "intersectionId": "153110",
+        "intersectionName": "樾河路/震川路",
+        "lat": 31.379242,
+        "lon": 121.00189,
+        "status": 1,
+        "taskId": -1
+    },
+    "155102": {
+        "intersectionId": "155102",
+        "intersectionName": "市后街/萧林路",
+        "lat": 31.403301,
+        "lon": 120.96865,
+        "status": 1,
+        "taskId": -1
+    },
+    "155120": {
+        "intersectionId": "155120",
+        "intersectionName": "市后街/昆太路",
+        "lat": 31.39108,
+        "lon": 120.96781,
+        "status": 1,
+        "taskId": -1
+    },
+    "157108": {
+        "intersectionId": "157108",
+        "intersectionName": "太湖路/前进路",
+        "lat": 31.384201,
+        "lon": 121.03616,
+        "status": 1,
+        "taskId": -1
+    },
+    "167108": {
+        "intersectionId": "167108",
+        "intersectionName": "沿沪大道/前进路",
+        "lat": 31.387852,
+        "lon": 121.096115,
+        "status": 1,
+        "taskId": -1
+    },
+    "185108": {
+        "intersectionId": "185108",
+        "intersectionName": "金沙江路/前进路",
+        "lat": 31.384077,
+        "lon": 121.016975,
+        "status": 1,
+        "taskId": -1
+    },
+    "187102": {
+        "intersectionId": "187102",
+        "intersectionName": "白塘路/萧林路",
+        "lat": 31.402632,
+        "lon": 120.983315,
+        "status": 1,
+        "taskId": -1
+    },
+    "191104": {
+        "intersectionId": "191104",
+        "intersectionName": "湖滨路/马鞍山路",
+        "lat": 31.388428,
+        "lon": 120.850235,
+        "status": 1,
+        "taskId": -1
+    },
+    "193102": {
+        "intersectionId": "193102",
+        "intersectionName": "永丰余路/萧林路",
+        "lat": 31.40413,
+        "lon": 120.94632,
+        "status": 1,
+        "taskId": -1
+    },
+    "195120": {
+        "intersectionId": "195120",
+        "intersectionName": "汉林路/昆太路",
+        "lat": 31.391193,
+        "lon": 120.97104,
+        "status": 1,
+        "taskId": -1
+    },
+    "201114": {
+        "intersectionId": "201114",
+        "intersectionName": "车站路/合兴路",
+        "lat": 31.365273,
+        "lon": 120.97497,
+        "status": 1,
+        "taskId": -1
+    },
+    "201116": {
+        "intersectionId": "201116",
+        "intersectionName": "车站路/庆丰路",
+        "lat": 31.360893,
+        "lon": 120.9735,
+        "status": 1,
+        "taskId": -1
+    },
+    "203118": {
+        "intersectionId": "203118",
+        "intersectionName": "泰山路/创业路",
+        "lat": 31.347103,
+        "lon": 120.96797,
+        "status": 1,
+        "taskId": -1
+    },
+    "203122": {
+        "intersectionId": "203122",
+        "intersectionName": "泰山路/中华园路",
+        "lat": 31.350824,
+        "lon": 120.96993,
+        "status": 1,
+        "taskId": -1
+    },
+    "203130": {
+        "intersectionId": "203130",
+        "intersectionName": "泰山路/衡山路",
+        "lat": 31.354979,
+        "lon": 120.97212,
+        "status": 1,
+        "taskId": -1
+    },
+    "215104": {
+        "intersectionId": "215104",
+        "intersectionName": "共青路/马鞍山路",
+        "lat": 31.388437,
+        "lon": 120.91205,
+        "status": 1,
+        "taskId": -1
+    },
+    "215108": {
+        "intersectionId": "215108",
+        "intersectionName": "共青路/前进路",
+        "lat": 31.381248,
+        "lon": 120.91101,
+        "status": 1,
+        "taskId": -1
+    },
+    "233104": {
+        "intersectionId": "233104",
+        "intersectionName": "思常路/马鞍山路",
+        "lat": 31.388796,
+        "lon": 120.89943,
+        "status": 1,
+        "taskId": -1
+    },
+    "233108": {
+        "intersectionId": "233108",
+        "intersectionName": "思常路/前进路",
+        "lat": 31.381243,
+        "lon": 120.90096,
+        "status": 1,
+        "taskId": -1
+    },
+    "242122": {
+        "intersectionId": "242122",
+        "intersectionName": "枫景苑/中华园路",
+        "lat": 31.356482,
+        "lon": 120.95749,
+        "status": 1,
+        "taskId": -1
+    },
+    "255108": {
+        "intersectionId": "255108",
+        "intersectionName": "采莲街/前进路",
+        "lat": 31.382635,
+        "lon": 120.9608,
+        "status": 1,
+        "taskId": -1
+    },
+    "265108": {
+        "intersectionId": "265108",
+        "intersectionName": "绣衣路/前进路",
+        "lat": 31.383423,
+        "lon": 120.96804,
+        "status": 1,
+        "taskId": -1
+    },
+    "267106": {
+        "intersectionId": "267106",
+        "intersectionName": "桃花江路/同丰路",
+        "lat": 31.387306,
+        "lon": 120.99165,
+        "status": 1,
+        "taskId": -1
+    },
+    "267108": {
+        "intersectionId": "267108",
+        "intersectionName": "桃花江路/前进路",
+        "lat": 31.38351,
+        "lon": 120.99189,
+        "status": 1,
+        "taskId": -1
+    },
+    "271108": {
+        "intersectionId": "271108",
+        "intersectionName": "红峰支路/前进路",
+        "lat": 31.381096,
+        "lon": 120.94488,
+        "status": 1,
+        "taskId": -1
+    },
+    "273118": {
+        "intersectionId": "273118",
+        "intersectionName": "嵩山路/创业路",
+        "lat": 31.348688,
+        "lon": 120.96388,
+        "status": 1,
+        "taskId": -1
+    },
+    "273122": {
+        "intersectionId": "273122",
+        "intersectionName": "嵩山路/中华园路",
+        "lat": 31.352419,
+        "lon": 120.965805,
+        "status": 1,
+        "taskId": -1
+    },
+    "273130": {
+        "intersectionId": "273130",
+        "intersectionName": "嵩山路/衡山路",
+        "lat": 31.356707,
+        "lon": 120.96806,
+        "status": 1,
+        "taskId": -1
+    },
+    "275114": {
+        "intersectionId": "275114",
+        "intersectionName": "新闸路/合兴路",
+        "lat": 31.369518,
+        "lon": 120.954254,
+        "status": 1,
+        "taskId": -1
+    },
+    "277114": {
+        "intersectionId": "277114",
+        "intersectionName": "跃进路/合兴路",
+        "lat": 31.3671,
+        "lon": 120.96284,
+        "status": 1,
+        "taskId": -1
+    },
+    "279116": {
+        "intersectionId": "279116",
+        "intersectionName": "富尔路/庆丰路",
+        "lat": 31.353064,
+        "lon": 121.005,
+        "status": 1,
+        "taskId": -1
+    },
+    "281102": {
+        "intersectionId": "281102",
+        "intersectionName": "斜泾路/萧林路",
+        "lat": 31.406218,
+        "lon": 120.91434,
+        "status": 1,
+        "taskId": -1
+    },
+    "283108": {
+        "intersectionId": "283108",
+        "intersectionName": "东城大道/前进路",
+        "lat": 31.38421,
+        "lon": 121.058975,
+        "status": 1,
+        "taskId": -1
+    },
+    "285104": {
+        "intersectionId": "285104",
+        "intersectionName": "环城西路/马鞍山路",
+        "lat": 31.386688,
+        "lon": 120.84199,
+        "status": 1,
+        "taskId": -1
+    },
+    "801110": {
+        "intersectionId": "801110",
+        "intersectionName": "中山支路/震川路",
+        "lat": 31.378134,
+        "lon": 120.979195,
+        "status": 1,
+        "taskId": -1
+    },
+    "803108": {
+        "intersectionId": "803108",
+        "intersectionName": "仓基街/前进路",
+        "lat": 31.381063,
+        "lon": 120.94864,
+        "status": 1,
+        "taskId": -1
+    }
+}

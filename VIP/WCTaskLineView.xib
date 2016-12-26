@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WCTaskLineView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_implementation-in" translatesAutoresizingMaskIntoConstraints="NO" id="ZAl-GA-bnP" userLabel="background">
+                    <rect key="frame" x="0.0" y="0.0" width="820" height="135"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="819.5" id="6ZG-og-UGd"/>
+                        <constraint firstAttribute="height" constant="135" id="79v-Wg-rOZ"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumbnail_map" translatesAutoresizingMaskIntoConstraints="NO" id="hgn-BD-LTw" userLabel="leading">
+                    <rect key="frame" x="11" y="11" width="113" height="114"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="113" id="ehi-rl-ZcL"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_license-plate-number" translatesAutoresizingMaskIntoConstraints="NO" id="xEk-Kr-RYn" userLabel="Image1">
+                    <rect key="frame" x="147" y="10" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="dRD-om-DS9"/>
+                        <constraint firstAttribute="width" constant="25" id="dew-ei-Rwf"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="苏EU162J" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vx-HQ-t3A">
+                    <rect key="frame" x="178" y="13" width="90" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="AgD-ZZ-saE"/>
+                        <constraint firstAttribute="width" constant="90" id="dbW-70-VA1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.26666666666666666" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_list_implementation-in" translatesAutoresizingMaskIntoConstraints="NO" id="tol-ug-BkZ" userLabel="line1">
+                    <rect key="frame" x="268" y="12" width="1" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="GLP-hg-5RP"/>
+                        <constraint firstAttribute="width" constant="1" id="kAu-lO-1G0"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_number-of-vehicles" translatesAutoresizingMaskIntoConstraints="NO" id="gFj-Uj-63r" userLabel="Image2">
+                    <rect key="frame" x="282" y="10" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="FSO-OY-L2i"/>
+                        <constraint firstAttribute="width" constant="25" id="cDL-gl-hA5"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4辆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ki7-LQ-fL9">
+                    <rect key="frame" x="313" y="13" width="60" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="DHC-4l-Kj9"/>
+                        <constraint firstAttribute="height" constant="20" id="gLz-tI-xNA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.26666666666666666" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_list_implementation-in" translatesAutoresizingMaskIntoConstraints="NO" id="6On-YO-w2q" userLabel="line 2">
+                    <rect key="frame" x="373" y="12" width="1" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="GvY-if-L2T"/>
+                        <constraint firstAttribute="height" constant="22" id="Zjk-x9-4xK"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_priority-level" translatesAutoresizingMaskIntoConstraints="NO" id="eaU-MY-Paj">
+                    <rect key="frame" x="386" y="10" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="DN9-yS-8ek"/>
+                        <constraint firstAttribute="height" constant="25" id="qeu-ZX-d1R"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="优先" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pim-85-yFR">
+                    <rect key="frame" x="417" y="13" width="90" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="J3b-6O-lHv"/>
+                        <constraint firstAttribute="height" constant="20" id="TKD-DB-ZD1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.26666666666666666" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzH-CZ-ugr" customClass="WCNoHighlightedButton">
+                    <rect key="frame" x="505" y="0.0" width="95" height="135"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="135" id="7TI-kz-JH4"/>
+                        <constraint firstAttribute="width" constant="95" id="qK5-Q7-sMl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="74" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="35" minY="39" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="执行中" image="icon_implementation-in_implement" backgroundImage="button_implementation-in_desalination">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xyy-WK-sMK" userLabel="路线View" customClass="WCRoadLineView">
+                    <rect key="frame" x="135" y="45" width="370" height="89"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="89" id="s8j-vr-rfn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZAl-GA-bnP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="03y-pJ-y6P"/>
+                <constraint firstItem="9Vx-HQ-t3A" firstAttribute="centerY" secondItem="xEk-Kr-RYn" secondAttribute="centerY" id="0Mc-ym-rks"/>
+                <constraint firstItem="xEk-Kr-RYn" firstAttribute="leading" secondItem="hgn-BD-LTw" secondAttribute="trailing" constant="23" id="3TM-2m-3bc"/>
+                <constraint firstItem="Xyy-WK-sMK" firstAttribute="top" secondItem="xEk-Kr-RYn" secondAttribute="bottom" constant="10" id="AQw-vz-Bmn"/>
+                <constraint firstItem="9Vx-HQ-t3A" firstAttribute="leading" secondItem="xEk-Kr-RYn" secondAttribute="trailing" constant="6" id="AXZ-p4-Svt"/>
+                <constraint firstItem="Pim-85-yFR" firstAttribute="centerY" secondItem="eaU-MY-Paj" secondAttribute="centerY" id="AyI-Ct-hQD"/>
+                <constraint firstItem="xEk-Kr-RYn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="CGM-c7-nKt"/>
+                <constraint firstItem="eaU-MY-Paj" firstAttribute="centerY" secondItem="gFj-Uj-63r" secondAttribute="centerY" id="Gg2-SV-MYS"/>
+                <constraint firstItem="tol-ug-BkZ" firstAttribute="leading" secondItem="9Vx-HQ-t3A" secondAttribute="trailing" id="Jmf-BC-l6F"/>
+                <constraint firstItem="eaU-MY-Paj" firstAttribute="leading" secondItem="6On-YO-w2q" secondAttribute="trailing" constant="12" id="Jy1-lR-5M0"/>
+                <constraint firstItem="Xyy-WK-sMK" firstAttribute="leading" secondItem="hgn-BD-LTw" secondAttribute="trailing" constant="11" id="KaY-zO-Ssd"/>
+                <constraint firstItem="hgn-BD-LTw" firstAttribute="bottom" secondItem="ZAl-GA-bnP" secondAttribute="bottom" constant="-10" id="MOj-ih-BZu"/>
+                <constraint firstItem="gFj-Uj-63r" firstAttribute="centerY" secondItem="xEk-Kr-RYn" secondAttribute="centerY" id="Vn3-9D-LmK"/>
+                <constraint firstItem="GzH-CZ-ugr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="W7k-qP-1XY"/>
+                <constraint firstItem="Ki7-LQ-fL9" firstAttribute="leading" secondItem="gFj-Uj-63r" secondAttribute="trailing" constant="6" id="Y5M-Ry-kqx"/>
+                <constraint firstItem="ZAl-GA-bnP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YcX-a2-wm4"/>
+                <constraint firstItem="GzH-CZ-ugr" firstAttribute="leading" secondItem="Xyy-WK-sMK" secondAttribute="trailing" id="ZRs-D0-pJH"/>
+                <constraint firstItem="hgn-BD-LTw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10.5" id="Zd4-fV-0n1"/>
+                <constraint firstItem="6On-YO-w2q" firstAttribute="leading" secondItem="Ki7-LQ-fL9" secondAttribute="trailing" id="aqC-qt-2Yq"/>
+                <constraint firstItem="hgn-BD-LTw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10.5" id="cWu-7C-WYe"/>
+                <constraint firstItem="gFj-Uj-63r" firstAttribute="leading" secondItem="tol-ug-BkZ" secondAttribute="trailing" constant="12.5" id="hLV-nW-IXx"/>
+                <constraint firstItem="Ki7-LQ-fL9" firstAttribute="centerY" secondItem="gFj-Uj-63r" secondAttribute="centerY" id="meO-lz-Elf"/>
+                <constraint firstItem="6On-YO-w2q" firstAttribute="centerY" secondItem="Ki7-LQ-fL9" secondAttribute="centerY" id="ntm-ye-8kt"/>
+                <constraint firstAttribute="trailing" secondItem="GzH-CZ-ugr" secondAttribute="trailing" id="tNI-vs-b81"/>
+                <constraint firstItem="Pim-85-yFR" firstAttribute="leading" secondItem="eaU-MY-Paj" secondAttribute="trailing" constant="6" id="yl8-rW-LHx"/>
+                <constraint firstItem="tol-ug-BkZ" firstAttribute="centerY" secondItem="9Vx-HQ-t3A" secondAttribute="centerY" id="zuV-Bl-T2X"/>
+            </constraints>
+            <connections>
+                <outlet property="roadLineView" destination="Xyy-WK-sMK" id="q54-cv-n9j"/>
+            </connections>
+            <point key="canvasLocation" x="343" y="249"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_implementation-in_desalination" width="95" height="135"/>
+        <image name="icon_implementation-in_implement" width="25" height="25"/>
+        <image name="icon_license-plate-number" width="25" height="25"/>
+        <image name="icon_number-of-vehicles" width="25" height="25"/>
+        <image name="icon_priority-level" width="25" height="25"/>
+        <image name="line_list_implementation-in" width="1" height="1"/>
+        <image name="list_implementation-in" width="819" height="135"/>
+        <image name="thumbnail_map" width="114" height="114"/>
+    </resources>
+</document>
